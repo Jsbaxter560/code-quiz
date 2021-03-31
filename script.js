@@ -1,6 +1,9 @@
-// User is presented with a window inviting them to begin code quiz by clicking start button
-    // 
+// User is presented with a container inviting them to begin code quiz by clicking start button
+    // header will display high score justified to left and timer justified right
+    // header will display start button justified center
+        // for the sake of visual clarity 
 // button includes addEventListener awaiting click
+
 // click initiates function quiz
 // quiz includes timer utilizing setInterval function
     //timer require var clock and var countdown
@@ -16,6 +19,13 @@
 // if game is over user is presented with a prompt to enter initials alongside amount of time remaining
 // when initials are input, they are displayed on a list of high scores in descending order
 
+
+    
+
+
+
+
+// beginnings of possible arrays to be drawn from for questions and answers
 var answers =["variable", "syntax", "function", "array", "method", "concatenate", "pseudocode", "index",];
 
 var questions =["'_____' refers to the rules by which a programming language functions", "It is best to '__________' at the beginning of any project to establish a path"];
