@@ -1,31 +1,30 @@
 // User is presented with a container inviting them to begin code quiz by clicking start button
+    // onload event is added to html to initiate function quiz
     // header will display high score justified to left and timer justified right
     // header will display start button justified center
         // for the sake of visual clarity 
-// button includes addEventListener awaiting click
-
+// start button includes addEventListener awaiting click
 // click initiates function quiz
-// quiz includes timer utilizing setInterval function
-    //timer require var clock and var countdown
-    // timer includes setTimeout method to end quiz
-// quiz includes questions drawn from an array of strings
-// quiz includes answers drawn from an array of strings
-// as each question is displayed 4 answers are displayed
-// for each question, only one answer is true
-// for each false answer, 10 seconds are decremented from remaining time
-// for each true answer, time remaining is left alone
-// if all questions are answered game is over
-// if time remaining reaches 0 game is over
-// if game is over user is presented with a prompt to enter initials alongside amount of time remaining
-// when initials are input, they are displayed on a list of high scores in descending order
+    // start initiates var countdown which utiizes set interval method
+        // countdown begins with 20 seconds
+    // quiz includes timer utilizing setInterval method
+    // begin with 20,000 ms
+        // time decrements from start button
+        // each false answer decrements 4000 ms
+        // if timer reaches 0, game over
+            // SetTimeout method ends quiz
+   
+    // quiz includes true/false questions drawn from an array of strings
+    // questions will be drawn from an array
+        // if the answer of the question is true and the user response is true, the boolean return value will be true
+        // if the answer of the question is false and the user response is false, the boolean return value will be true
+        // if the answer of the question is false and the user response is true, the boolean return value will be false
+        // if the answer of the question is true and the user response is false, the boolean return value will be false
+    // when quiz ends, time remaining is player score
+        // eventListener waits for end of quiz and displays window asking if user would like to restart
 
-
-    
-
-
-
-
-// beginnings of possible arrays to be drawn from for questions and answers
-var answers =["variable", "syntax", "function", "array", "method", "concatenate", "pseudocode", "index",];
-
-var questions =["'_____' refers to the rules by which a programming language functions", "It is best to '__________' at the beginning of any project to establish a path"];
+    function quizinit () {
+        document.getElementById("button").addEventListener("click", {
+            
+        }
+    }
