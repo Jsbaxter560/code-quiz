@@ -23,8 +23,10 @@
     // when quiz ends, time remaining is player score
         // eventListener waits for end of quiz and displays window asking if user would like to restart
 
+        var questions=["A variable can only hold a numerical value", "An array is an object that can only contain one singular value", "pseudocoding is the only way to begin a project"];
+        
     function quizinit () {
-        document.getElementById("button").addEventListener("click", {
-            
+        document.getElementById("button").addEventListener("click"), {
+            console.log ("quiz");
         }
     }
